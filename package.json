@@ -1,0 +1,35 @@
+{
+  "name": "yazi-kanalindan-sesli-kanala",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Discord'da belirtilen metin kanalından yazılan her yazıyı kullanıcının isteğe göre kadın veya erkek sesinde okuyabilecek bir bot.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "cls && node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rravencode/yazi-kanalindan-sesli-kanala.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "romanbaba",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rravencode/yazi-kanalindan-sesli-kanala/issues"
+  },
+  "homepage": "https://github.com/rravencode/yazi-kanalindan-sesli-kanala#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "axios": "^1.6.5",
+    "discord.js": "^14.14.1",
+    "djs-bot-base": "^1.1.2",
+    "ffmpeg-static": "^5.2.0",
+    "google-tts-api": "^2.0.2",
+    "libsodium-wrappers": "^0.7.13",
+    "sneaks": "^0.0.1",
+    "utilscord": "^1.6.0",
+    "uuid": "^9.0.1"
+  }
+}
